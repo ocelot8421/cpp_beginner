@@ -35,4 +35,6 @@ int main(){
     ptr = &y;
     *ptr *= 3;
     cout << "y: " << y << "; *ptr: " << *ptr << endl;
+
+    return 0;
 }
