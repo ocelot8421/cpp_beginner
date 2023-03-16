@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 
 using namespace std;
 
@@ -10,6 +11,9 @@ int main(){
     // cout << sizeof(long long) << endl;
     cout << numeric_limits<long long>::min() << endl;
     cout << numeric_limits<long long>::max() << endl;
+    cout << sizeof(long long) << endl;
+    cout << numeric_limits<size_t>::min() << endl;
+    cout << numeric_limits<size_t>::max() << endl;
     cout << sizeof(size_t) << endl;
     return 0;
 }
