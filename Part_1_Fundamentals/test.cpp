@@ -42,7 +42,7 @@ int main(){
     int number = 1'000'000;
     cout << number << endl;
     // short another = number;         //narrowing
-    short another {number};            //narrowing
-    cout << another;
+    // short another {number};            //narrowing
+    // cout << another;
     return 0;
 }
