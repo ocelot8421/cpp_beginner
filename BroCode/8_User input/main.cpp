@@ -16,7 +16,7 @@ int main(){
     cout << "Write a sentence." << endl;
     cin >> str;             //>> A béka segge alatt.
     cout << str << endl;    //<< A                  //szó szerint "kimegy"
-    getline(cin, str);      //<<  bka segge alatt.  //TODO ékezeteket nem kezel
+    getline(cin, str);      //<<  bka segge alatt.  //TODO (1) ékezeteket nem kezel
     cout << str << endl;
 
     //cin followed by getline
@@ -24,7 +24,7 @@ int main(){
     int age2;
     cout << "What's your age?: ";
     cin >> age2;
-    //'\n' - in input buffer, there is a new line character. //TODO read about input buffer
+    //'\n' - in input buffer, there is a new line character. //TODO (3) read about input buffer
     cout << "What's your full name?: ";
     // getline(cin, name2); // The remaining '\n is readed in by getline function instead prompt a new input.
     getline(cin >> ws, name2); // The remaining '\n is readed in by getline function 

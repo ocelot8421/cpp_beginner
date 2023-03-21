@@ -1,0 +1,9 @@
+https://youtu.be/enFszxj6hfA?list=PLiH4g_VR3i0Pz0vAyjPzPCXDqLqHPfW2p&t=799
+
+CPU init:
+
+glGenVertexArrays(1, &vao); glBindVertexArray(vao);
+glGenBuffers(1, &vbo); glBindBuffer(GL_ARRAY_BUFFER, vbo);
+float vtx[] = {-0.8, -0.8, 0, 1,  -0.6, 1, 0, 1,   0.8, -0.2, 0, 1};
+glBufferDate(GL_ARRAY_BUFFER, sizeof(vtx), vtx, GL_STATIC_DRAW);
+glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 0, NULL)

@@ -8,7 +8,9 @@ void changeNumbers(int numbers[]){
 
 int main(){
     int numbers[] = {10, 20, 30};
-    cout << numbers << " " << *numbers << endl;
+    cout << "numbers -- " << numbers << endl
+         << "*numbers -- " << *numbers << endl
+         << "&numbers -- " << &numbers << endl;
 
     int* ptr = numbers;
     cout << "ptr[1] " << ptr[1] << endl;

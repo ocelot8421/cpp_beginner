@@ -18,10 +18,14 @@ int main(){
     double price = 100;
     increasePrice(price);       //asked for value
     cout << price << endl;
+
+    price = 100;
     increaseRefPrice(price);    //asked for reference
     cout << price << endl;
+
+    price = 100;
     increasePointerPrice(&price);    //asked for pointer
     cout << price << endl;
 
-    return 0;
+    return 0; 
 }

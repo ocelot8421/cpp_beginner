@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main(){                         //TODO (3) CMakefile for all exe files
     string name = "Mona";
     name.append(" Lisa");
     cout << name << endl;
