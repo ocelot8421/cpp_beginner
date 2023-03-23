@@ -100,13 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Part_3_Advanced/lesson5_4_Creating_Objects/main.cpp",
+			"path" : "_Template/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Part_3_Advanced/lesson5_4_Creating_Objects/Rectangle.cpp",
+			"path" : "_Template/Rectangle.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

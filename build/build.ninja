@@ -49,17 +49,17 @@ cmake_ninja_workdir = D$:/Code/cpp_beginner/build/
 
 build cmake_object_order_depends_target_cpp_beginner: phony || CMakeFiles/cpp_beginner.dir
 
-build CMakeFiles/cpp_beginner.dir/Part_3_Advanced/lesson5_4_Creating_Objects/main.cpp.obj: CXX_COMPILER__cpp_beginner_unscanned_Debug D$:/Code/cpp_beginner/Part_3_Advanced/lesson5_4_Creating_Objects/main.cpp || cmake_object_order_depends_target_cpp_beginner
-  DEP_FILE = CMakeFiles\cpp_beginner.dir\Part_3_Advanced\lesson5_4_Creating_Objects\main.cpp.obj.d
+build CMakeFiles/cpp_beginner.dir/_Template/main.cpp.obj: CXX_COMPILER__cpp_beginner_unscanned_Debug D$:/Code/cpp_beginner/_Template/main.cpp || cmake_object_order_depends_target_cpp_beginner
+  DEP_FILE = CMakeFiles\cpp_beginner.dir\_Template\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\cpp_beginner.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp_beginner.dir\Part_3_Advanced\lesson5_4_Creating_Objects
+  OBJECT_FILE_DIR = CMakeFiles\cpp_beginner.dir\_Template
 
-build CMakeFiles/cpp_beginner.dir/Part_3_Advanced/lesson5_4_Creating_Objects/Rectangle.cpp.obj: CXX_COMPILER__cpp_beginner_unscanned_Debug D$:/Code/cpp_beginner/Part_3_Advanced/lesson5_4_Creating_Objects/Rectangle.cpp || cmake_object_order_depends_target_cpp_beginner
-  DEP_FILE = CMakeFiles\cpp_beginner.dir\Part_3_Advanced\lesson5_4_Creating_Objects\Rectangle.cpp.obj.d
+build CMakeFiles/cpp_beginner.dir/_Template/Rectangle.cpp.obj: CXX_COMPILER__cpp_beginner_unscanned_Debug D$:/Code/cpp_beginner/_Template/Rectangle.cpp || cmake_object_order_depends_target_cpp_beginner
+  DEP_FILE = CMakeFiles\cpp_beginner.dir\_Template\Rectangle.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\cpp_beginner.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp_beginner.dir\Part_3_Advanced\lesson5_4_Creating_Objects
+  OBJECT_FILE_DIR = CMakeFiles\cpp_beginner.dir\_Template
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/cpp_beginner.dir/Part_3_Advanced/lesson5_4_Creating_Objects/Rec
 #############################################
 # Link the executable cpp_beginner.exe
 
-build cpp_beginner.exe: CXX_EXECUTABLE_LINKER__cpp_beginner_Debug CMakeFiles/cpp_beginner.dir/Part_3_Advanced/lesson5_4_Creating_Objects/main.cpp.obj CMakeFiles/cpp_beginner.dir/Part_3_Advanced/lesson5_4_Creating_Objects/Rectangle.cpp.obj
+build cpp_beginner.exe: CXX_EXECUTABLE_LINKER__cpp_beginner_Debug CMakeFiles/cpp_beginner.dir/_Template/main.cpp.obj CMakeFiles/cpp_beginner.dir/_Template/Rectangle.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_beginner.dir

@@ -2,7 +2,11 @@ PS D:\Code\cpp_beginner> g++ -o main.exe Part_3_Advanced\lesson5_4_Creating_Obje
 PS D:\Code\cpp_beginner> main.exe
 
 
+
 --- CMakeLists.txt ---
+
+    Run <$ pacman -S mingw-w64-x86_64-cmake> in Msys2 (the pink Software Distribution and Building Platform for Windows)
+
 
 cmake_minimum_required(VERSION 3.22)
 project(cpp_beginner)

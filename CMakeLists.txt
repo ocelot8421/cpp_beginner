@@ -3,5 +3,5 @@ project(cpp_beginner)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp_beginner Part_3_Advanced/lesson5_4_Creating_Objects/main.cpp Part_3_Advanced/lesson5_4_Creating_Objects/Rectangle.cpp)
+add_executable(cpp_beginner _Template/main.cpp _Template/Rectangle.cpp)
 
