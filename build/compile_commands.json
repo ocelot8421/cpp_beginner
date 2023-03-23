@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Code/cpp_beginner/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\cpp_beginner.dir\\Part_3_Advanced\\lesson5_4_Creating_Objects\\main.cpp.obj -c D:\\Code\\cpp_beginner\\Part_3_Advanced\\lesson5_4_Creating_Objects\\main.cpp",
+  "file": "D:\\Code\\cpp_beginner\\Part_3_Advanced\\lesson5_4_Creating_Objects\\main.cpp",
+  "output": "CMakeFiles\\cpp_beginner.dir\\Part_3_Advanced\\lesson5_4_Creating_Objects\\main.cpp.obj"
+},
+{
+  "directory": "D:/Code/cpp_beginner/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\cpp_beginner.dir\\Part_3_Advanced\\lesson5_4_Creating_Objects\\Rectangle.cpp.obj -c D:\\Code\\cpp_beginner\\Part_3_Advanced\\lesson5_4_Creating_Objects\\Rectangle.cpp",
+  "file": "D:\\Code\\cpp_beginner\\Part_3_Advanced\\lesson5_4_Creating_Objects\\Rectangle.cpp",
+  "output": "CMakeFiles\\cpp_beginner.dir\\Part_3_Advanced\\lesson5_4_Creating_Objects\\Rectangle.cpp.obj"
+}
+]
